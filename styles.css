@@ -48,8 +48,28 @@ li a:active {
         margin-bottom: 20px;
 }
 footer {
-    position: absolute;
-    bottom: 0;
-    height: 60px;
-    line-height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+form {
+    margin-bottom: 10em;
+}
+fieldset {
+    margin-bottom: 2em;
+}
+legend {
+    font-weight: bold;
+}
+label {
+    display: block;
+}
+input:not([type="radio"]) {
+    display: block;
+    margin-bottom: 1em;
+    width: 20em;
 }

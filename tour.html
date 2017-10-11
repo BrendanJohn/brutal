@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Tours</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="/">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tour.html">Tours</a></li>
+            </ul>
+        </nav>
+        <h1>Tours</h1>
+        <h2>Book a free architecture tour in downtown Boston</h2>
+        <div class="row">
+            <div class="large-column">
+                <form action="" method="">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label for="name">Your name</label>
+                            <input type="text" id="name" autofocus>
+                        <label for="email">Email address</label>
+                            <input type="email" id="email">
+                        <label for="phone">Phone number</label>
+                            <input type="tel" id="phone" placeholder="Please include an area code">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Tour Information</legend>
+                        <p>Meeting Point (Choose a green line MBTA stop)</p>
+                            <input name="meetingPoint" list="meetingPoint">
+                            <datalist id="meetingPoint">
+                                <label>Or choose from the list</label>
+                                <select name="meetingPoint">
+                                    <option selected>Selecton One...</option>
+                                    <option value="Park St">Park St</option>
+                                    <option value="Government Center">Government Center</option>
+                                    <option value="Haymarket">Haymarket</option>
+                                    <option value="Boylston">Boylston</option>
+                                </select>
+                            </datalist>
+                            <label for="date">Tour date</label>
+                                <input type="date" name="date">
+                            <label for="qty">Group size (Max 5)</label>
+                                <input type="number" name="qty" max="5">
+                        <p>Special requests for your tour</p>
+                            <label>
+                                <textarea id="requests" placeholder="Any special points of interest?"></textarea>
+                            </label>
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="small-column">
+                <article>
+                    <p>Example</p>
+                    <p>Example</p>
+                </article>
+            </div>
+        </div>
+        <footer>Copyright &copy; 2017 <a href="www.brendanmurph.com">BrendanMurph.com</a></footer>
+    </div>
+</body>
+
+</html>

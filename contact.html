@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Contact</title>
+    <title>Tours</title>
     <link rel="stylesheet" href="styles.css" type="text/css" />
   </head>
   <body>
@@ -11,17 +11,30 @@
         <ul>
           <li><a class="active" href="/">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="tour.html">Tours</a></li>
         </ul>
       </nav>
-    <h1>Contact</h1>
-    <h2>Brutalist architecture in the Boston area</h2>
+    <h1>Tours</h1>
+    <h2>Book a free tour of Brutalist Architecture in downtown Boston!</h2>
         <div class="row">
           <div class="large-column">
-            <article>
-            <p>What is <i>brutalism</i>?</p>
-             <p>Brutalism is a unique architectural style that flourished worldwide in the 1960s and early 1970s. The word itself comes from a French word "beton brut", which translates to raw concrete. Brutalism is characterized by hulking slabs of unpainted concrete. The structures are imposing and bulky, fortress-like in nature with large walls and few windows.</p>
-          </article>
+            <form action="" method="">
+              <p>Your name
+                <input type="text" id="name">
+              </p>
+              <p>Email Address
+                <input type="text" id="email">
+              </p>
+              <p>Phone Number
+                <input type="text" id="phone">
+              </p>
+              <p>Meeting Point (Choose a green line MBTA stop)<br>
+                <input type="radio" name="meetingPoint" value="parkSt" checked>Park St <br>
+                <input type="radio" name="meetingPoint" value="govCenter">Government Center <br>
+                <input type="radio" name="meetingPoint" value="haymarket">Haymarket <br>
+              </p>
+              <input type="submit" value="Submit">
+            </form> 
           </div>
           <div class="small-column">
             <article>
