@@ -73,6 +73,7 @@ input:not([type="radio"]) {
 img {
     max-width: 300px;
     padding: 20px;
+    margin: 5px;
 }
 .rounded {
     border-radius: 25px;
