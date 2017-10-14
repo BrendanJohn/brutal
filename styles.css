@@ -73,3 +73,7 @@ input:not([type="radio"]) {
     margin-bottom: 1em;
     width: 20em;
 }
+img {
+    max-width: 300px;
+    padding: 20px;
+}
