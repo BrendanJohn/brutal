@@ -89,3 +89,7 @@ article {
     float: left;
     clear: left;
 }
+*:focus {
+    text-decoration:underline;
+    background-color:#ddd;
+}
