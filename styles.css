@@ -107,3 +107,7 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+.centered {
+    margin: auto;
+    width: 50%;
+}
