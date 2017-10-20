@@ -21,7 +21,7 @@
          <main>
             <div class="row">
                <div class="large-column">
-                  <form action="" method="">
+                  <form action="#" method="POST">
                      <fieldset>
                         <legend>Contact Information</legend>
                         <label for="name">Your name</label>
@@ -46,9 +46,9 @@
                            </select>
                         </datalist>
                         <label for="date">Tour date</label>
-                        <input tabindex="8" type="date" name="date">
+                        <input tabindex="8" type="date" id="date">
                         <label for="qty">Group size (Max 5)</label>
-                        <input tabindex="9" type="number" name="qty" max="5">
+                        <input tabindex="9" type="number" id="qty" max="5">
                         <p>Special requests for your tour</p>
                         <label>
                         <textarea id="requests" placeholder="Any special points of interest?"></textarea>
@@ -58,14 +58,14 @@
                   </form>
                </div>
                <div class="small-column">
-                  <article>
-                     <p><img class="rounded" src="/images/CityHall6.JPG" alt="South West Corner of City Hall"></p>
-                     <p><img class="rounded" src="/images/Congress4.JPG" alt="Congress Street Parking Garage"></p>
-                  </article>
+                  <aside>
+                     <p><img role="presentation" class="rounded" src="/images/CityHall6.JPG" alt="South West Corner of City Hall"></p>
+                     <p><img role="presentation" class="rounded" src="/images/Congress4.JPG" alt="Congress Street Parking Garage"></p>
+                  </aside>
                </div>
             </div>
          </main>
-         <footer role="contentinfo">Copyright &copy; 2017 <a tabindex="10" href="http://www.brendanmurph.com">Brendan Murphy</a></footer>
+         <footer>Copyright &copy; 2017 <a tabindex="10" href="http://www.brendanmurph.com">Brendan Murphy</a></footer>
       </div>
    </body>
 </html>
