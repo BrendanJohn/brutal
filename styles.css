@@ -44,6 +44,7 @@ footer {
     -moz-column-gap: 30px;
     column-gap: 30px;
     column-rule-style: solid;
+    margin-bottom: 25px;
 }
 .small-column {
     float: left;
